@@ -1,0 +1,250 @@
+        .menubar{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: rgb(37, 37, 37);
+            border-radius: 10px;
+        }
+
+        .menubar img{
+            height: 60px;
+            margin-top: 6px;
+        }
+
+        .menubar ul{
+            display: flex;
+        }
+
+        .menubar ul li{
+            padding: 10px 20px;
+            list-style: none;
+            
+        }
+
+        .menubar ul li:hover{
+            background-color: rgb(255,201,95);
+            cursor: pointer;
+            
+        }
+
+        .menubar ul li a{
+            text-decoration: none;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: large;
+            color: white;
+           
+        }
+
+        .menubar ul li a:hover{
+            color: black;
+        }
+
+        .about{
+            display: flex;
+            padding: 30px 60px;
+            background-color: rgb(80,7,18);
+            border-radius: 10px;
+        }
+
+        .about-image{
+            width: 50%;
+            padding: 40px 20px;
+        }
+
+        .about-content{
+            width: 50%;
+        }
+
+        .about-image img{
+            height: 400px;
+            display: block;
+            margin: auto;
+        }
+
+        .about-content h1{
+            color: rgb(255,201,95);
+            font-family: Montserrat;
+            font-weight: 900;
+            font-style: italic;
+
+            text-decoration: underline;
+        }
+
+        .about-content p{
+            font-family: lato;
+            color: white;
+            font-size: 16px;
+        }
+
+        .about-button{
+            border: 0cap;
+            padding: 20px 50px;
+            background-color: black;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .about-button:hover{
+            background-color: white;
+            color: black;
+            opacity: 0.8;
+            transition: background-color 0.15s, color 0.15s;
+        }
+
+        .about-button:active{
+            background-color: black;
+            color: white;
+            opacity: 1;
+        }
+
+        section h1{
+            font-family: montserrat;
+            font-weight: 900;
+            text-align: center;
+            text-decoration: underline;
+        }
+ 
+        .services{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .service{
+            width: 600px;
+            background-color: rgb(80,7,18);
+            height: 700px;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .service img{
+            height: 450px;
+            border-radius: 10px;
+            margin-left: 83px;
+            margin-top: 30px;
+        }
+
+        .service h1{
+            font-family: montserrat;
+            color: white;
+            text-decoration: underline;
+            font-style: italic;
+        }
+
+        .service p{
+            font-family: lato;
+            font-size: small;
+            text-align: center;
+            color: rgb(255,201,95);
+        }
+
+        .hirebutton{
+            border: 0cap;
+            padding: 20px 50px;
+            background-color: white;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 210px;
+        }
+
+        .hirebutton:hover{
+            background-color: black;
+            color: white;
+            opacity: 0.8;
+            transition: background-color 0.15s, color 0.15s;
+        }
+
+        .hirebutton:active{
+            background-color: white;
+            color: black;
+            opacity: 1;
+        }
+
+        .contact{
+            display: flex;
+            background-color: rgb(80,7,18);
+            height: 500px;
+            border-radius: 10px;
+        }
+
+        .custom{
+            font-size: 50px;
+            margin-left: 15px;
+            color: white;
+            
+            
+        }
+
+        .contact-left{
+            width: 50%;
+        }
+
+        .contact-right{
+            width: 50%;
+        }
+
+        .contact-left p{
+            display: flex;
+            font-size: 23px;
+            font-family: lato;
+            color: white;
+            margin-left: 20px;
+            gap: 20px;
+        }
+
+        .form-control{
+            width: 50%;
+            padding: 10px;
+            border: 0cap;
+            border-radius: 5px;
+            margin-top: 40px;
+            padding-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .submit-button{
+            border: 0cap;
+            padding: 12px 30px;
+            background-color: black;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+
+        .submit-button:hover{
+            background-color: white;
+            color: black;
+            opacity: 0.8;
+            transition: background-color 0.15s, color 0.15s;
+        }
+
+        .submit-button:active{
+            background-color: black;
+            color: white;
+            opacity: 1;
+        }
+
+        footer{
+            display: flex;
+            background-color: black;
+            height: 90px;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .footer-icon{
+            color: white;
+            font-size: 30px;
+            
+            
+        }
